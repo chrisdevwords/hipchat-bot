@@ -1,0 +1,34 @@
+{
+  "name": "hipchat-bot",
+  "version": "1.0.0",
+  "description": "Server-side node module for parsing and resolving HipChat integration hooks. Easy to extend for custom Integrations and Chatbots.",
+  "main": "lib/hipchat-bot.js",
+  "scripts": {
+    "test": "NODE_ENV=test istanbul cover --report html node_modules/.bin/_mocha --recursive -- -R spec tests/**/*_spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisdevwords/hipchat-bot.git"
+  },
+  "keywords": [
+    "hipchat"
+  ],
+  "author": "chrisdevwords <chrisdevwords@yahoo.com> (http://github.com/chrisdevwords/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisdevwords/hipchat-bot/issues"
+  },
+  "homepage": "https://github.com/chrisdevwords/hipchat-bot",
+  "dependencies": {
+    "imgur-search": "^1.0.1",
+    "jquery-deferred": "^0.3.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.14",
+    "mocha": "^2.2.5",
+    "request": "^2.57.0",
+    "should": "^6.0.3",
+    "sinon": "^1.14.1"
+  }
+}
