@@ -16,7 +16,7 @@ describe('HipChatBot', function () {
 
     beforeEach(function () {
         bot = new HipChatBot();
-        reqData = JSON.parse(mock.hipChat.getHook(slug + ' ' + msgTxt, name));
+        reqData = JSON.parse(HipChatBot.Mock.getHook(slug + ' ' + msgTxt, name));
     });
 
     it('should be able to strip the slug from a request', function (done) {
@@ -188,7 +188,7 @@ describe('HipChatBot', function () {
                 .replace('{q}', query);
 
             reqData = JSON.parse(
-                mock.hipChat.getHook(slug + ' ' + query, name)
+                HipChatBot.Mock.getHook(slug + ' ' + query, name)
             );
 
             sinon

@@ -1,6 +1,6 @@
 {
   "name": "hipchat-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Server-side node module for parsing and resolving HipChat integration hooks. Easy to extend for custom Integrations and Chatbots.",
   "main": "lib/hipchat-bot.js",
   "scripts": {

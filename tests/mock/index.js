@@ -1,10 +1,8 @@
 var imgurGallery = require('./imgurGallery');
 var imgurSearch = require('./imgurSearch');
 var imgurServiceErrors = require('./imgurServiceErrors');
-var webHook = require('./webHook');
 
 module.exports = {
-    hipChat: webHook,
     imgur: {
         serviceError: {
             apiKey: JSON.stringify(imgurServiceErrors.apiKey),
